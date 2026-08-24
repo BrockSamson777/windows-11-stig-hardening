@@ -1,4 +1,4 @@
-- ##[Windows 11 STIG Reference](https://stigaview.com/products/win11/latest/)##
+[Windows 11 STIG Reference](https://stigaview.com/products/win11/latest/)
 
 For each failed Tenable compliance finding, I used the corresponding STIG ID to review the:
 
