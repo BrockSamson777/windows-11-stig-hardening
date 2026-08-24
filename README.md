@@ -28,3 +28,7 @@ Verify Configuration
 Run Tenable Rescan
         ↓
 PASS
+
+
+
+<img width="2166" height="1261" alt="image" src="https://github.com/user-attachments/assets/8d23232d-2e96-4527-bfae-dcb1262e7f6e" />
