@@ -3,22 +3,22 @@
     This PowerShell script disables the Windows Installer AlwaysInstallElevated feature.
 
 .NOTES
-    Author          : <Your Name>
-    LinkedIn        : <Your LinkedIn>
-    GitHub          : <Your GitHub>
-    Date Created    : 2026-08-24
-    Last Modified   : 2026-08-24
+    Author          : Victor Johnson
+    LinkedIn        : https://www.linkedin.com/in/v-johns/
+    GitHub          : github.com/BrockSamson777
+    Date Created    : 08/24/2026
+    Last Modified   : 08/24/2026
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
     STIG-ID         : WN11-CC-000315
-    Documentation   : STIG-A-View - Windows 11 - WN11-CC-000315
+    Documentation   : https://stigaview.com/products/win11/latest/WN11-CC-000005/
 
 .TESTED ON
-    Date(s) Tested  :
-    Tested By       :
+    Date(s) Tested  : 08/24/2026
+    Tested By       : Victor Johnson
     Systems Tested  : Windows 11
-    PowerShell Ver. :
+    PowerShell Ver. : 5.1
 
 .USAGE
     Run PowerShell as Administrator.
