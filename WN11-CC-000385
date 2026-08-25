@@ -1,0 +1,41 @@
+<#
+.SYNOPSIS
+    This PowerShell script configures Windows Ink Workspace to disallow access above the Windows lock screen.
+
+.NOTES
+    Author          : <Your Name>
+    LinkedIn        : <Your LinkedIn>
+    GitHub          : <Your GitHub>
+    Date Created    : 2026-08-24
+    Last Modified   : 2026-08-24
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-CC-000385
+    Documentation   : STIG-A-View - Windows 11 - WN11-CC-000385
+
+.TESTED ON
+    Date(s) Tested  :
+    Tested By       :
+    Systems Tested  : Windows 11
+    PowerShell Ver. :
+
+.USAGE
+    Run PowerShell as Administrator.
+
+    Example syntax:
+    PS C:\> .\WN11-CC-000385.ps1
+#>
+
+$Path = "HKLM:\SOFTWARE\Policies\Microsoft\WindowsInkWorkspace"
+
+New-Item -Path $Path -Force | Out-Null
+
+New-ItemProperty -Path $Path `
+    -Name "AllowWindowsInkWorkspace" `
+    -PropertyType DWord `
+    -Value 1 `
+    -Force | Out-Null
+
+Write-Host "WN11-CC-000385 remediated successfully."
+Write-Host "Windows Ink Workspace access above the lock screen has been restricted."
