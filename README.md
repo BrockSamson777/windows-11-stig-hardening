@@ -54,4 +54,5 @@ This validation step demonstrates the remediation workflow:
 
 **Identify Finding → Research STIG → Implement Remediation → Rescan → Verify Compliance**
 
-****<img width="1625" height="847" alt="image" src="https://github.com/user-attachments/assets/ae693355-f25e-477e-92d8-6cb7c92ea8e4" />
+<img width="1593" height="854" alt="image" src="https://github.com/user-attachments/assets/6cc88194-83cd-4ecf-bb9a-5ad8b31f18e3" />
+
