@@ -25,3 +25,33 @@
 The initial Tenable compliance scan identified multiple Windows 11 STIG findings requiring remediation.
 
 <img width="2166" height="1261" alt="Initial Tenable Windows 11 STIG compliance scan" src="https://github.com/user-attachments/assets/8d23232d-2e96-4527-bfae-dcb1262e7f6e" />
+
+
+## STIG Remediation Progress
+
+After implementing several Windows 11 STIG remediations, I performed another credentialed compliance scan using Tenable Vulnerability Management.
+
+The rescan confirmed that multiple previously failed STIG controls were successfully remediated and now report a **Passed** status.
+
+### Current Scan Results
+- **109 Passed**
+- **142 Failed**
+- **12 Warnings**
+- **263 Total Compliance Checks**
+
+Examples of successfully remediated controls visible in the scan include:
+
+- WN11-CC-000315 — Always Install with Elevated Privileges disabled
+- WN11-CC-000110 — Printing over HTTP prevented
+- WN11-CC-000197 — Microsoft Consumer Experiences disabled
+- WN11-CC-000326 — PowerShell Script Block Logging enabled
+- WN11-CC-000185 — Autorun commands prevented
+- WN11-CC-000327 — PowerShell Transcription enabled
+- WN11-CC-000305 — Indexing of encrypted files disabled
+- WN11-CC-000252 — Windows Game Recording and Broadcasting disabled
+
+This validation step demonstrates the remediation workflow:
+
+**Identify Finding → Research STIG → Implement Remediation → Rescan → Verify Compliance**
+
+****<img width="1625" height="847" alt="image" src="https://github.com/user-attachments/assets/ae693355-f25e-477e-92d8-6cb7c92ea8e4" />
